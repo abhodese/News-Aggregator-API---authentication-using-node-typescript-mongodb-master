@@ -23,7 +23,7 @@ A Node application for authentication using typescript,express and mongoDB which
 1. Get the code
 
     ```bash
-    git clone git@github.com:AurangzaibRamzan/authentication-using-node-typescript-mongodb.git && cd authentication-using-node-typescript-mongodb
+    git clone git@https://github.com/abhodese/News-Aggregator-API---authentication-using-node-typescript-mongodb-maste && cd authentication-using-node-typescript-mongodb
     ```
 
 2. Install dependencies
