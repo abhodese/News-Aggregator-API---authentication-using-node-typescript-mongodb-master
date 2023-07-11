@@ -8,7 +8,8 @@ interface Authenticate {
   (plainTextPassword: string): Promise<boolean>;
 }
 
-interface UserType extends mongoose.Document {
+export interface UserType extends mongoose.Document {
+  [x: string]: any;
   usernname: string;
   password: string;
   encryptPassword: EncryptPassword;

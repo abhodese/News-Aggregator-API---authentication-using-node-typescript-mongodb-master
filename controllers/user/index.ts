@@ -18,7 +18,7 @@ interface LoginArgsType {
   password: string;
 }
 
-interface ChangePasswordType {
+export interface ChangePasswordType {
   userId: string;
   password: string;
   newPassword: string;
